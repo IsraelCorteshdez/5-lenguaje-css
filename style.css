@@ -1,9 +1,60 @@
 .flex-nav{
     display: flex;
     justify-content: end;
+    text-decoration: none;
+    
 }
 
-.color{
-    color: rgb(2, 82, 55);
-    text-decoration: none;
+.cont-grid{
+    display: grid;
+    height: 700px;
+    border: 2px solid black;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+   /* justify-items: start;   /* justifica los elementos*/
+    align-items: center; /* Alinea los elementos*/
+    justify-content: center; /*justify-content: Mueve todo el elemento; start: al inicio; end: al final; center: al centro  */
+}
+.elemento-grid{
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    color: rgb(12, 13, 14);
+}
+
+.text1-grid{
+    width: 800px;
+    align-items: center;
+    justify-items: end;
+    grid-column: 1/3; /*Ocupa de la linea 1 al 3 de las columnas */
+    grid-row: 1/2; /*Ocupa de la linea 1 al 2 de las filas */
+}
+
+.text2-grid{
+    align-items: center;
+    justify-items: end;
+    grid-column: 2/3; /*Ocupa de la linea 2 al 3 de las columnas */
+    grid-row: 2/3;  /*Ocupa de la linea 2 al 3 de las filas */
+    width: 200px;
+}
+.text3-grid{
+    align-items: center;
+    justify-items: end;
+    grid-column: 3/5; /*Ocupa de la linea 3 al 5 de las columnas */
+    grid-row: 2/5; /*Ocupa de la linea 2 al 5 de las filas */
+    width: 400px;
+    height: 300px;
+}
+
+.text4-grid{
+    align-items: center;
+    justify-items: end;
+    grid-column: 3/4; /*Ocupa de la linea 3 al 4 de las columnas */
+    grid-row: 5/6; /*Ocupa de la linea 5 al 6 de las filas */
+}
+
+.textcenter{
+    display: flex;
+    justify-content: center;
 }
