@@ -1,0 +1,9 @@
+.flex-nav{
+    display: flex;
+    justify-content: end;
+}
+
+.color{
+    color: rgb(2, 82, 55);
+    text-decoration: none;
+}
